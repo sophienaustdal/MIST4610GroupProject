@@ -21,4 +21,4 @@ Our company, Dawg Fitness, is a large fitness enterprise with multiple gym locat
 
 ## Queries
 
-## Database Information:
+## Database Information
