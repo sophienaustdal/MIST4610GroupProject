@@ -1,7 +1,7 @@
 # Group 1 MIST4610 Group Project 1
 4610 Group Project 1: Gym Database
 
-Members: Sophie Naustdal
+## Members: Sophie Naustdal
 
 Scenario Description:
 
