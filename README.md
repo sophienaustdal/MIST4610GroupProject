@@ -18,6 +18,11 @@ Our company, Dawg Fitness, is a large fitness enterprise with multiple gym locat
 <img width="574" alt="GymDataModel" src="https://github.com/user-attachments/assets/2c2b850e-8572-4382-8ad5-10c3db88c1a6" />
 
 ## Data Dictionary
+<img width="779" alt="Screenshot 2025-03-13 at 7 34 19 PM" src="https://github.com/user-attachments/assets/36439e9f-7eef-47ae-bd71-4de45dc5f2e8" />
+
+<img width="779" alt="Screenshot 2025-03-13 at 7 38 00 PM" src="https://github.com/user-attachments/assets/e107417f-78fa-4b2a-9cf0-994187a1988d" />
+
+<img width="778" alt="Screenshot 2025-03-13 at 7 38 30 PM" src="https://github.com/user-attachments/assets/37a52c90-bfe0-4226-9eec-9c9037b783cb" />
 
 ## Queries
 
