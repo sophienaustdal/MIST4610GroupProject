@@ -1,7 +1,7 @@
 # Group 1 MIST4610 Group Project 1
 
 ## Team Name
-21482 Group1
+21482 Group 1
 
 ## Team Members
 1. Sophie Naustdal https://github.com/sophienaustdal/MIST4610GroupProject.git
