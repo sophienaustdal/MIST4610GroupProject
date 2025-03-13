@@ -27,3 +27,6 @@ Our company, Dawg Fitness, is a large fitness enterprise with multiple gym locat
 ## Queries
 
 ## Database Information
+Name of the Database: ns_Sp25_21482_Group1
+
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
