@@ -6,7 +6,7 @@
 ## Team Members
 1. Sophie Naustdal
 2. Rachel Chuan
-3. Riley Cook
+3. Riley Cook https://github.com/rileyacook/4610Proj1.git
 4. Chidera Nwosu
 5. Coleman Vaughn
 
