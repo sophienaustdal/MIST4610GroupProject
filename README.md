@@ -4,7 +4,7 @@
 21482 Group1
 
 ## Team Members
-1. Sophie Naustdal [@SophieNaustdal]https://github.com/sophienaustdal/MIST4610GroupProject.git
+1. Sophie Naustdal https://github.com/sophienaustdal/MIST4610GroupProject.git
 2. Rachel Chuan
 3. Riley Cook https://github.com/rileyacook/4610Proj1.git
 4. Chidera Nwosu
