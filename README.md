@@ -15,6 +15,7 @@ Our company, Dawg Fitness, is a large fitness enterprise with multiple gym locat
 
 ## Data Model
 Explanation of data model:
+
 Our model's most center-based entity is our Gym entity. The Gym entity represents a unique identifier, location, phone number, and email. Since our gym table is our central point, we have multiple relationships stemming from the Gym entity: Equipment, Staff, and Members.
 
 Equipment is directly related to Gyms, as equipment and resources are the main points of operation in gyms. A unique ID number is assigned to each piece of equipment, along with the name, status, and age of each piece. Equipment belongs to only one gym, so the gymID, which identifies the gym where the equipment is located, is present for each piece of equipment. Although equipment can only belong to one gym, a gym can have multiple pieces of equipment.
