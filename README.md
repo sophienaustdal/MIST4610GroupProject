@@ -44,9 +44,9 @@ PrivateSessions is designed for members interested in one-on-one training with a
 
 
 ## Data Dictionary
-<img width="1024" alt="Screenshot 2025-03-16 at 12 51 31 AM" src="https://github.com/user-attachments/assets/eac82fa0-8159-4c54-993a-f1176e6d164f" />
+<img width="791" alt="Screenshot 2025-03-16 at 12 53 55 AM" src="https://github.com/user-attachments/assets/f57f1f94-3738-4b29-9b30-43af05c3e75b" />
 
-<img width="867" alt="Screenshot 2025-03-16 at 12 52 16 AM" src="https://github.com/user-attachments/assets/0216bf87-283b-430e-8d85-4ac6e92915b0" />
+<img width="789" alt="Screenshot 2025-03-16 at 12 53 32 AM" src="https://github.com/user-attachments/assets/6908f366-2d10-4501-b889-5c91069c67aa" />
 
 <img width="795" alt="Screenshot 2025-03-16 at 12 50 11 AM" src="https://github.com/user-attachments/assets/a90603b8-40a8-4b55-a3fc-59d2bae738d2" />
 
