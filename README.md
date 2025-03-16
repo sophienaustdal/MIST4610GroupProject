@@ -48,8 +48,8 @@ PrivateSessions is designed for members interested in one-on-one training with a
 
 <img width="779" alt="Screenshot 2025-03-13 at 7 58 57 PM" src="https://github.com/user-attachments/assets/32b80385-4c35-4fa7-83c6-26a8a35536c6" />
 
+<img width="795" alt="Screenshot 2025-03-16 at 12 50 11 AM" src="https://github.com/user-attachments/assets/a90603b8-40a8-4b55-a3fc-59d2bae738d2" />
 
-<img width="778" alt="Screenshot 2025-03-13 at 7 38 30 PM" src="https://github.com/user-attachments/assets/37a52c90-bfe0-4226-9eec-9c9037b783cb" />
 
 ## Queries
 
