@@ -40,7 +40,8 @@ TrainerSchedule is the associative entity linking trainers to the classes they t
 
 PrivateSessions is designed for members interested in one-on-one training with a trainer. PrivateSessions is unique in that all attributes are primary keys. Two of the three primary keys originate from the Members table (memberID) and the Trainers table (trainerID), allowing each session to track which member is working with which trainer. The PrivateSessionID is a table-specific primary key that ensures multiple sessions can exist for each trainer and/or member.
 
-<img width="584" alt="Screenshot 2025-03-13 at 7 49 43 PM" src="https://github.com/user-attachments/assets/3fe0af91-56b5-44b9-abbe-e68266ec0545" />
+<img width="653" alt="Screenshot 2025-03-15 at 11 38 17 PM" src="https://github.com/user-attachments/assets/ce791941-8bac-4460-ba18-22d8e51083e1" />
+
 
 
 ## Data Dictionary
