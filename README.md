@@ -5,7 +5,7 @@
 
 ## Team Members
 1. Sophie Naustdal https://github.com/sophienaustdal/MIST4610GroupProject.git
-2. Rachel Chuan
+2. Rachel Chuan https://github.com/rachelchuan/4610Proj1
 3. Riley Cook https://github.com/rileyacook/4610Proj1.git
 4. Chidera Nwosu
 5. Coleman Vaughn
