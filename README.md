@@ -61,8 +61,8 @@ Query 8 provides managers with valuable insights into the performance of each gy
 
 
 9. Query 9 lists the staff members who are managers and make a salary greater than the average salary of managers. The employee's ID number, name, hire date, position, salary, and the gym they work at are displayed.
-    
-<img width="992" alt="Screenshot 2025-03-16 at 10 57 37 PM" src="https://github.com/user-attachments/assets/dac8dcd7-3781-4108-894b-59a05adefbe8" />
+
+ <img width="993" alt="Screenshot 2025-03-16 at 11 00 05 PM" src="https://github.com/user-attachments/assets/fab6dde4-5e56-49c0-a869-bbdf2d181464" />
 
 Query 9 provides managers with valuable insights into the performance of managers across the different gym locations. It compiles a list of managers within the company and only those managers who make a salary above that of the average salary of all managers. This identifies the company's highest-earning managers and which gym locations have the highest-paid managers. Including the staff members' hire dates also allows managers to compare years of experience to pay granted. These results could help managers indicate any pay disparities among managers or different gym locations. 
 
