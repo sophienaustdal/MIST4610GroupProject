@@ -1,19 +1,19 @@
 # Group 1 MIST4610 Group Project 1
 
-## Team Name
+## Team Name:
 21482 Group 1
 
-## Team Members
+## Team Members:
 1. Sophie Naustdal https://github.com/sophienaustdal/MIST4610GroupProject.git
 2. Rachel Chuan https://github.com/rachelchuan/4610Proj1
 3. Riley Cook https://github.com/rileyacook/4610Proj1.git
 4. Chidera Nwosu
 5. Coleman Vaughn
 
-## Scenario Description
+## Scenario Description:
 Our company, Dawg Fitness, is a large fitness enterprise with multiple gym locations across the United States, with each gym serving as the core of our operations. While all gyms operate under Dawg Fitness, each location offers tailored services to meet the diverse needs of its members. Our goal is to create a relational database that connects all relevant entities across the business. This database will manage key information such as gym details, member profiles, trainers, equipment inventory, class schedules, membership plans, payment history, and survey feedback. By leveraging this data, we aim to structure queries that provide valuable insights for improving and growing Dawg Fitness’s operations.
 
-## Data Model
+## Data Model:
 Explanation of data model:
 
 Our model's most center-based entity is our Gym entity. The Gym entity represents each of Dawg Fitness's distinct gym locations across the United States. Its attributes include a unique identifier, location, phone number, and email. Since our gym table is our central point, we have multiple relationships stemming from the Gym entity: Equipment, Staff, and Members.
@@ -43,7 +43,7 @@ PrivateSessions is designed for members interested in one-on-one training with a
 <img width="645" alt="Screenshot 2025-03-16 at 12 44 34 AM" src="https://github.com/user-attachments/assets/376abce4-404e-4845-a157-602aa907a245" />
 
 
-## Data Dictionary
+## Data Dictionary:
 <img width="789" alt="Screenshot 2025-03-18 at 5 40 40 PM" src="https://github.com/user-attachments/assets/7bc65cef-a945-44a3-92fb-f976ea397c2a" />
 
 <img width="792" alt="Screenshot 2025-03-18 at 5 41 37 PM" src="https://github.com/user-attachments/assets/2332ab8a-7fef-46a7-8f84-d5ecf24d8a1b" />
@@ -64,9 +64,9 @@ PrivateSessions is designed for members interested in one-on-one training with a
 
 <img width="639" alt="Screenshot 2025-03-18 at 1 16 06 PM" src="https://github.com/user-attachments/assets/2aff28df-173f-40db-a321-ce189d23a132" />
 
-## Queries
+## Queries:
 
-<img width="788" alt="Screenshot 2025-03-16 at 11 10 26 PM" src="https://github.com/user-attachments/assets/17a943f2-c139-4fce-894c-396bda7019a9" />
+<img width="786" alt="Screenshot 2025-03-18 at 5 51 29 PM" src="https://github.com/user-attachments/assets/7f167988-61c3-46c2-a5e0-aee32ee9468d" />
 
 1. Query 1 lists each gym's ID, the number of pieces of equipment that are "Under Maintenance" or "Needs Repair", and equipment that is at least 2 years old (as of 2025- March - 14). These pieces of equipment are to be labeled as "Urgent Needs". Group each piece of "Urgent Needs" equipment into its respective gym, and order the count of "Urgent Needs" in a descending order.
 <img width="727" alt="Screenshot 2025-03-17 at 9 10 21 AM" src="https://github.com/user-attachments/assets/040d8e9c-6cc8-45df-871d-06acc88676f5" />
@@ -116,7 +116,7 @@ Query 8 provides managers with valuable insights into the performance of each gy
 Query 9 provides managers with valuable insights into the performance of managers across the different gym locations. It compiles a list of managers within the company and only those managers who make a salary above that of the average salary of all managers. This identifies the company's highest-earning managers and which gym locations have the highest-paid managers. Including the staff members' hire dates also allows managers to compare years of experience to pay granted. These results could help managers indicate any pay disparities among managers or different gym locations.
 
 
-## Database Information
+## Database Information:
 Name of the Database: ns_Sp25_21482_Group1
 
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL TP_Q1();
