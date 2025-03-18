@@ -68,6 +68,51 @@ PrivateSessions is designed for members interested in one-on-one training with a
 
 <img width="788" alt="Screenshot 2025-03-16 at 11 10 26 PM" src="https://github.com/user-attachments/assets/17a943f2-c139-4fce-894c-396bda7019a9" />
 
+<img width="788" alt="Screenshot 2025-03-16 at 11 10 26 PM" src="https://github.com/user-attachments/assets/17a943f2-c139-4fce-894c-396bda7019a9" />
+1. Query 1 lists each gym's ID, the number of pieces of equipment that are "Under Maintenance" or "Needs Repair", and equipment that is at least 2 years old (as of 2025- March - 14). These pieces of equipment are to be labeled as "Urgent Needs". Group each piece of "Urgent Needs" equipment into its respective gym, and order the count of "Urgent Needs" in a descending order.
+<img width="727" alt="Screenshot 2025-03-17 at 9 10 21 AM" src="https://github.com/user-attachments/assets/040d8e9c-6cc8-45df-871d-06acc88676f5" />
+
+The equipment in our gyms is the core product we offer to our members, and machines that are "Under Maintenance" or "Needs Repair" require immediate attention. We specifically focus on equipment that is at least two years old to see which equipment is aging, as well as malfunctioning. Due to their age and inability to function, these items are classified as "Urgent Needs". These Urgent Needs are then counted per gym location, and ordered by the count of Urgent Needs (descending) so that we can prioritize repair/maintenance for the respective gyms. 
+
+2. Query 2 lists every trainer's ID and their last and first names. Alongside names and IDs, we listed the classes they teach, labeled by the class' ID, class' room number, and class' name. Lastly, we are interested in the average survey score of that trainer and the respective class, labeled as "Average Rating". We want to know how our trainers-- who specialize in any "Strength" or "Endurance"-- are being scored by our members. We grouped the results by the trainer's ID, the class ID, and the class name they are in charge of. The Average Rating of survey scores is ordered in a descending manner.
+<img width="909" alt="Screenshot 2025-03-18 at 5 21 11 PM" src="https://github.com/user-attachments/assets/74c1fad0-fb44-4fbc-ab4d-f90d2984a71d" />
+
+The purpose of Query 2 is to track feedback for our strength trainers and endurance trainers who also lead group classes. We aim to capture all relevant information about these trainers, the classes they teach, and their average survey ratings. By monitoring  each trainer’s average score we can assess their performance and determine if any coaching or adjustments are needed to enhance their effectiveness.
+
+Query 3: # Get the surveyID and rating for surveys of large classes (More than 20 people) that have a higher rating than the average rating of all classes offered 
+
+![image](https://github.com/user-attachments/assets/6d645c58-099e-426a-8c7b-2375c6733009)
+![image](https://github.com/user-attachments/assets/0f846170-bd11-45de-b6ec-2c9407634975)
+
+
+Query 3 lists the survey IDs of all large group classes ( More than 20 people in the class) that have an above-average rating compared to all the surveys. This is important to us so we can see how people feel about our larger-sized group classes in comparison to other classes we offer. This will help us make decisions about which classes aren't being affected by the large size and do not need to be reduced to a smaller capacity.
+
+
+Query 5: Retrieves the total number of members per membership plan and sorts in descending order.
+This query organizes the number of members in each membership plan and can be used to send emails that specifically cater to the type of membership they have.
+<img width="807" alt="Screenshot 2025-03-17 at 11 32 11 AM" src="https://github.com/user-attachments/assets/7cba7469-c76b-4a49-a9be-178404da4726" />
+
+Query 6: Finds members who have never signed up for a class or a private session.
+This query finds gym members that have not signed up for a class or session, this information can be used to send emails to members to encourage them to sign up.
+<img width="704" alt="Screenshot 2025-03-17 at 11 40 29 AM" src="https://github.com/user-attachments/assets/c1f994ce-d061-417d-a8e7-0d02e233b5f8" />
+
+Query 7: Lists all classes with their trainers.
+This query organizes and tracks all classes and their respective trainers, making it easy to keep track of past or future classes.
+<img width="656" alt="Screenshot 2025-03-18 at 4 53 13 PM" src="https://github.com/user-attachments/assets/ffe7aae3-8b96-4c8c-8af1-bcabd8820540" />
+
+8. Query 8 lists each gym's ID, its location, a count of the members associated with that gym, and the sum of the payment amounts made by each member for that gym. The count of members is aliased as "TotalRevenue" and the sum of payments is aliased as "TotalRevenue". The results are ordered by total revenue in ascending order.
+   
+<img width="1290" alt="Screenshot 2025-03-16 at 11 02 03 PM" src="https://github.com/user-attachments/assets/6174b0a3-4366-4aed-becb-f022180f85a0" />
+
+Query 8 provides managers with valuable insights into the performance of each gym location. It allows managers to track how many members are active at each gym location and the total revenue generated for each gym. Understanding the revenue generated by each gym helps managers assess the gyms' financial health and see which locations possibly need more resources and marketing. Ordering the results by total revenue in ascending order provides a quick identification of which gyms need the most investments.
+
+
+9. Query 9 lists the staff members who are managers and make a salary greater than the average salary of managers. The employee's ID number, name, hire date, position, salary, and the gym they work at are displayed.
+
+<img width="1286" alt="Screenshot 2025-03-16 at 11 02 30 PM" src="https://github.com/user-attachments/assets/6c777225-97c9-489e-9821-2e61f162faa8" />
+
+Query 9 provides managers with valuable insights into the performance of managers across the different gym locations. It compiles a list of managers within the company and only those managers who make a salary above that of the average salary of all managers. This identifies the company's highest-earning managers and which gym locations have the highest-paid managers. Including the staff members' hire dates also allows managers to compare years of experience to pay granted. These results could help managers indicate any pay disparities among managers or different gym locations.
+
 
 8. Query 8 lists each gym's ID, its location, a count of the members associated with that gym, and the sum of the payment amounts made by each member for that gym. The count of members is aliased as "TotalRevenue" and the sum of payments is aliased as "TotalRevenue". The results are ordered by total revenue in ascending order.
    
