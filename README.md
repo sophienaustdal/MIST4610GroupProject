@@ -44,12 +44,25 @@ PrivateSessions is designed for members interested in one-on-one training with a
 
 
 ## Data Dictionary
+<img width="789" alt="Screenshot 2025-03-18 at 5 40 40 PM" src="https://github.com/user-attachments/assets/7bc65cef-a945-44a3-92fb-f976ea397c2a" />
+
+<img width="792" alt="Screenshot 2025-03-18 at 5 41 37 PM" src="https://github.com/user-attachments/assets/2332ab8a-7fef-46a7-8f84-d5ecf24d8a1b" />
+
 <img width="791" alt="Screenshot 2025-03-16 at 12 53 55 AM" src="https://github.com/user-attachments/assets/f57f1f94-3738-4b29-9b30-43af05c3e75b" />
 
 <img width="789" alt="Screenshot 2025-03-16 at 12 53 32 AM" src="https://github.com/user-attachments/assets/6908f366-2d10-4501-b889-5c91069c67aa" />
 
 <img width="793" alt="Screenshot 2025-03-16 at 9 03 28 PM" src="https://github.com/user-attachments/assets/675f1487-650a-4819-a525-851dae07337d" />
 
+<img width="792" alt="Screenshot 2025-03-18 at 5 43 42 PM" src="https://github.com/user-attachments/assets/9ed34d0f-feed-4391-aeb3-9f78c044be87" />
+
+<img width="786" alt="Screenshot 2025-03-18 at 5 43 53 PM" src="https://github.com/user-attachments/assets/b0bfdbf2-20d0-4818-b03d-0d948156b850" />
+
+<img width="637" alt="Screenshot 2025-03-18 at 1 14 21 PM" src="https://github.com/user-attachments/assets/b4ec7a1a-bff3-4ffc-a9cf-509959548ded" />
+
+<img width="641" alt="Screenshot 2025-03-18 at 1 15 29 PM" src="https://github.com/user-attachments/assets/ae001905-c4bc-4af6-ad8e-c156af7113ca" />
+
+<img width="639" alt="Screenshot 2025-03-18 at 1 16 06 PM" src="https://github.com/user-attachments/assets/2aff28df-173f-40db-a321-ce189d23a132" />
 
 ## Queries
 
