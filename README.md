@@ -4,14 +4,15 @@
 21482 Group 1
 
 ## Team Members:
-1. Sophie Naustdal https://github.com/sophienaustdal/MIST4610GroupProject.git
-2. Rachel Chuan https://github.com/rachelchuan/4610Proj1
-3. Riley Cook https://github.com/rileyacook/4610Proj1.git
-4. Chidera Nwosu
-5. Coleman Vaughn
+1. Riley Cook https://github.com/rileyacook/4610Proj1.git
+2. Sophie Naustdal https://github.com/sophienaustdal/MIST4610GroupProject.git
+3. Rachel Chuan https://github.com/rachelchuan/4610Proj1
+4. Chidera Nwosu https://github.com/chideranwosu15/4610Project1
+5. Coleman Vaughn https://github.com/Colemanv33/MIST4610Proj1
 
 ## Scenario Description:
-Our company, Dawg Fitness, is a large fitness enterprise with multiple gym locations across the United States, with each gym serving as the core of our operations. While all gyms operate under Dawg Fitness, each location offers tailored services to meet the diverse needs of its members. Our goal is to create a relational database that connects all relevant entities across the business. This database will manage key information such as gym details, member profiles, trainers, equipment inventory, class schedules, membership plans, payment history, and survey feedback. By leveraging this data, we aim to structure queries that provide valuable insights for improving and growing Dawg Fitness’s operations.
+
+Our company, Dawg Fitness, is a large fitness enterprise with multiple gym locations across the United States, with each gym serving as the core of our operations. While all gyms operate under Dawg Fitness, each location offers tailored services to meet the diverse needs of its members. Our goal is to create a relational database that connects all relevant entities across the business. This database will manage key information such as gym details, member profiles, trainers, equipment inventory, class schedules, membership plans, payment history, and survey feedback. By leveraging this data, we aim to structure queries that provide valuable insights for improving and growing Dawg Fitness' operations.
 
 ## Data Model:
 Explanation of data model:
@@ -40,10 +41,17 @@ TrainerSchedule is the associative entity linking trainers to the classes they t
 
 PrivateSessions is designed for members interested in one-on-one training with a trainer. Many members can have many private sessions with trainers. The composite primary key originates from the Members table with memberID and the Trainers table with trainerID, allowing each session to track which member is working with which trainer. Again, these two attributes are foreign keys that reference the Members table and the Trainers table. The PrivateSessionID is a table-specific primary key that represents each unique pairing of a member and the trainer they are to have a one-on-one session with. Lastly, the date of the private session is included, as members can have many different private sessions with the same trainer.
 
+
 <img width="645" alt="Screenshot 2025-03-16 at 12 44 34 AM" src="https://github.com/user-attachments/assets/376abce4-404e-4845-a157-602aa907a245" />
 
 
 ## Data Dictionary:
+
+![image](https://github.com/user-attachments/assets/6d1eefbb-693f-4aac-92fd-5a584affbdc7)
+
+![image](https://github.com/user-attachments/assets/e7e94b37-1fc1-44f9-99dc-dda2dd8055e7)
+
+
 <img width="789" alt="Screenshot 2025-03-18 at 5 40 40 PM" src="https://github.com/user-attachments/assets/7bc65cef-a945-44a3-92fb-f976ea397c2a" />
 
 <img width="792" alt="Screenshot 2025-03-18 at 5 41 37 PM" src="https://github.com/user-attachments/assets/2332ab8a-7fef-46a7-8f84-d5ecf24d8a1b" />
@@ -64,9 +72,11 @@ PrivateSessions is designed for members interested in one-on-one training with a
 
 <img width="639" alt="Screenshot 2025-03-18 at 1 16 06 PM" src="https://github.com/user-attachments/assets/2aff28df-173f-40db-a321-ce189d23a132" />
 
+
 ## Queries:
 
-<img width="786" alt="Screenshot 2025-03-18 at 5 51 29 PM" src="https://github.com/user-attachments/assets/7f167988-61c3-46c2-a5e0-aee32ee9468d" />
+<img width="788" alt="Screenshot 2025-03-18 at 11 11 35 PM" src="https://github.com/user-attachments/assets/0776829b-0247-4f76-a53a-14e418f06385" />
+
 
 1. Query 1 lists each gym's ID, the number of pieces of equipment that are "Under Maintenance" or "Needs Repair", and equipment that is at least 2 years old (as of 2025- March - 14). These pieces of equipment are to be labeled as "Urgent Needs". Group each piece of "Urgent Needs" equipment into its respective gym, and order the count of "Urgent Needs" in a descending order.
 <img width="727" alt="Screenshot 2025-03-17 at 9 10 21 AM" src="https://github.com/user-attachments/assets/040d8e9c-6cc8-45df-871d-06acc88676f5" />
@@ -78,26 +88,31 @@ The equipment in our gyms is the core product we offer to our members, and machi
 
 The purpose of Query 2 is to track feedback for our strength trainers and endurance trainers who also lead group classes. We aim to capture all relevant information about these trainers, the classes they teach, and their average survey ratings. By monitoring  each trainer’s average score we can assess their performance and determine if any coaching or adjustments are needed to enhance their effectiveness.
 
-Query 3: # Get the surveyID and rating for surveys of large classes (More than 20 people) that have a higher rating than the average rating of all classes offered 
+3. Query 3 gets the surveyID and rating for surveys of large classes (More than 20 people) that have a higher rating than the average rating of all classes offered. 
 
-![image](https://github.com/user-attachments/assets/6d645c58-099e-426a-8c7b-2375c6733009)
-![image](https://github.com/user-attachments/assets/0f846170-bd11-45de-b6ec-2c9407634975)
+![image](https://github.com/user-attachments/assets/ed95efc6-5b00-4d04-a59c-39b4c50554b8)
+![image](https://github.com/user-attachments/assets/0b52e503-6d7f-429f-9316-4441d67281e3)
+
 
 
 Query 3 lists the survey IDs of all large group classes ( More than 20 people in the class) that have an above-average rating compared to all the surveys. This is important to us so we can see how people feel about our larger-sized group classes in comparison to other classes we offer. This will help us make decisions about which classes aren't being affected by the large size and do not need to be reduced to a smaller capacity.
 
+4. Query 4 retrieves the average salaries of Receptionists and Sales Associates in all gyms.
 
-Query 5: Retrieves the total number of members per membership plan and sorts in descending order.
+![image](https://github.com/user-attachments/assets/ea9c4f60-dbf7-4500-b2e7-8cdd7f7a1e59)
+![image](https://github.com/user-attachments/assets/4a0b5bb8-a656-48b4-b646-135867ed2030)
+
+Query 4 will help job interviewers know how much of a salary to offer qualified candidates for either the Receptionist or Sales Associate positions. This way they will have neither overpaid nor underpaid them.
+
+5. Query 5 retrieves the total number of members per membership plan and sorts in descending order.
 This query organizes the number of members in each membership plan and can be used to send emails that specifically cater to the type of membership they have.
-
 <img width="807" alt="Screenshot 2025-03-17 at 11 32 11 AM" src="https://github.com/user-attachments/assets/7cba7469-c76b-4a49-a9be-178404da4726" />
 
-Query 6: Finds members who have never signed up for a class or a private session.
-This query finds gym members that have not signed up for a class or session, this information can be used to send emails to members to encourage them to sign up.
-
+6. Query 6 finds members who have never signed up for a class or a private session.
+This query finds gym members who have not signed up for a class or session, this information can be used to send emails to members to encourage them to sign-up.
 <img width="704" alt="Screenshot 2025-03-17 at 11 40 29 AM" src="https://github.com/user-attachments/assets/c1f994ce-d061-417d-a8e7-0d02e233b5f8" />
 
-Query 7: Lists all classes with their trainers.
+7. Query 7 lists all classes with their trainers.
 This query organizes and tracks all classes and their respective trainers, making it easy to keep track of past or future classes.
 
 <img width="656" alt="Screenshot 2025-03-18 at 4 53 13 PM" src="https://github.com/user-attachments/assets/ffe7aae3-8b96-4c8c-8af1-bcabd8820540" />
@@ -115,6 +130,11 @@ Query 8 provides managers with valuable insights into the performance of each gy
 
 Query 9 provides managers with valuable insights into the performance of managers across the different gym locations. It compiles a list of managers within the company and only those managers who make a salary above that of the average salary of all managers. This identifies the company's highest-earning managers and which gym locations have the highest-paid managers. Including the staff members' hire dates also allows managers to compare years of experience to pay granted. These results could help managers indicate any pay disparities among managers or different gym locations.
 
+10. Query 10 lists each class name and its attendance rate which is calculated as the number of members registered for that class divided by the class's maximum capacity multiplied by 100. The returned results are then ordered by their attendance rate in descending order.
+
+<img width="904" alt="Screenshot 2025-03-18 at 6 56 35 PM" src="https://github.com/user-attachments/assets/a1e27a80-96e2-469c-b146-7fe968ffdba1" />
+
+This query allows for each class to be viewed based on how much of their capacity is being filled up. This will allow managers to see which classes are more popular, and they can see which classes are underperforming in terms of attendance. Seeing attendance rates can be beneficial for managers as it allows them to address low attendance rates and perhaps make changes to the underperforming classes.
 
 ## Database Information:
 Name of the Database: ns_Sp25_21482_Group1
